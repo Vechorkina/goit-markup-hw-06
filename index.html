@@ -428,7 +428,7 @@
                     <use href="./images/sprite/sprite.svg#icon-trubka"></use>
                 </svg> 
             </div>
-
+ 
             <div class="modalform-input-wrapper">
                 <input class="modal-form-input" type="email" name="user-email" id="user-modal-email" placeholder=" " required>
                 <label class="modal-form-label" for="user-modal-email">Почта</label>
@@ -437,16 +437,22 @@
                 </svg> 
             </div>
 
-            <textarea class="modal-form-message" name="user-message"  (cols="30" rows="10") placeholder="Комментарий"></textarea>
-            <label  class="modal-form-option-label">
-                <input class="modal-form-checkbox" type="checkbox" name="policy" value="accept-policy">
-                <span class="modal-form-custom-checkbox">
-                    <svg class="modal-button-icon-checkbox" width="16px" height="15px">
-                        <use href="./images/sprite/sprite.svg#icon-galochka"></use>
-                    </svg> 
-                </span>
-                <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
-            </label>
+                    <div class="modal-form-message-div">
+                        <textarea class="modal-form-message" name="user-message"  placeholder=" "></textarea>
+                        <label  class="modal-form-option-label" for="comment" >Комментарий</label>
+                    </div>
+            
+                 <div class="modal-form-checkbox-div">
+                    <input class="modal-form-checkbox" type="checkbox" name="policy" value="accept-policy">
+                    <span class="modal-form-custom-checkbox">
+                        <svg class="modal-button-icon-checkbox" width="16px" height="15px">
+                            <use href="./images/sprite/sprite.svg#icon-galochka"></use>
+                        </svg> 
+                    </span>
+                    <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
+                
+                 </div>   
+
             <button  class="modal-form-button" type="submit">Отправить</button>
         </form>
     </div>
