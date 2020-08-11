@@ -405,7 +405,7 @@
     </footer>
   
 
-    
+
 <!-- МОДАЛНОЕ ОКНО -->
     <div data-modal class="backdrop is-hidden">
         <form class="modal-form" action="#">
@@ -443,12 +443,18 @@
                         <textarea class="modal-form-message" name="user-message" id="comment" placeholder=" "></textarea>
                         <label  class="modal-form-option-label" for="comment" >Комментарий</label>
                     </div>
-            
-                     <label class="modal-form-checkbox-div">
-                        <input class="modal-form-checkbox" type="checkbox" name="policy" value="accept-policy">
-                        <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
-                    </label>
+                    <!-- ЧЕКБОКС -->
 
+
+                <div  class="modal-form-checkbox-div">
+                     <label>
+                        <input class="modal-form-checkbox" type="checkbox" name="policy" value="accept-policy" required>
+                        <svg class="button-icon-checkbox" width="16" height="15">
+                            <use href="./images/sprite/sprite.svg#icon-galochka"></use>
+                        </svg>
+                       Соглашаюсь с рассылкой и принимаю <a class="modal-form-option-span" href="#">Условия договора</a>
+                    </label>
+                </div>
 
             <button  class="modal-form-button" type="submit">Отправить</button>
         </form>
