@@ -695,10 +695,11 @@ height: 81px;
 .btn-form:focus {
     background-color: var(--accent-color);
 }
+
 .button-icon-send {
     margin-left: 10px;
     width: 24px;
-    height="24px"
+    height: 24px;
 }
 
 
@@ -855,20 +856,23 @@ border-radius: 4px;
     margin-bottom: 30px;
 }
 
-/* .img-project {
-    margin-bottom: 20px;
-} */
 
-.img-link:hover,
+
+/* .img-link:hover,
 .img-link:focus {
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+outline: none;
+} */
+
+.portfolio-img:hover,
+.portfolio-img:focus {
+background: #FFFFFF;
 box-sizing: border-box;
 box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 outline: none;
 }
-
-
 
 
 
